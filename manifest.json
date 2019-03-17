@@ -1,0 +1,23 @@
+{
+    "name": "Canvas DocViewer",
+    "version": "1.0",
+    "description": "Opens Canvas DocViewer in a new window.",
+    "manifest_version": 2,
+
+    "background": {
+        "scripts": [
+          "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "https://*.instructure.com/*",
+        "tabs"
+    ],
+
+    "icons": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+    }
+}
